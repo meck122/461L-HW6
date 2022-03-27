@@ -8,7 +8,8 @@ function App() {
   {
     // setData(val.target.value)
     console.warn(val.target.value)
-    fetch("http://127.0.0.1:5000/textbox/" + val.target.value)
+    // fetch("http://127.0.0.1:5000/textbox/" + val.target.value)
+    fetch("/textbox/" + val.target.value)
           .then(response => 
               response.json()
           )
