@@ -1,1 +1,1 @@
-web gunicorn app:textbox-name
+web gunicorn app:app
